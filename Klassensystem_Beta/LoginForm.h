@@ -8,6 +8,7 @@ namespace Klassensystem_Beta {
 	using namespace System::Windows::Forms;
 	using namespace System::Data;
 	using namespace System::Drawing;
+	using namespace System::Data::SqlClient;
 
 	/// <summary>
 	/// Summary for LoginForm
@@ -172,7 +173,27 @@ namespace Klassensystem_Beta {
 		private: System::Void LoginForm_Load(System::Object^ sender, System::EventArgs^ e) {
 		}
 		private: System::Void login_Click(System::Object^ sender, System::EventArgs^ e) {
-			
+			String^ username = this->tbUsername->Text;
+			String^ password = this->tbPassword->Text;
+
+			if (username->Length == 0 || password->Length == 0) {
+				MessageBox::Show("Please enter the username and password correctly!", 
+								 "Email or Password is empty", 
+					              MessageBoxButtons::OK);
+				return;
+			}
+
+			try {
+				String^ connString = "C:Users\\Admin\\source\\repos\\Project1\\Klassensystem_Beta\\Klassensystem_Beta\\Kassensystem.mdf";
+				SqlConnection sqlConnect(connString);
+
+				sqlConnect.Open();
+			}
+			catch (Exception^ error) {
+				MessageBox::Show("Failed to connect with the database",
+					"Database connection error",
+					MessageBoxButtons::OK);
+			}
 		}
 	};
 }

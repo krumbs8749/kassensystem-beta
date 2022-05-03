@@ -1,6 +1,8 @@
-﻿  LoginForm.cpp
-  Program.cpp
+﻿  Program.cpp
 C:\Users\Admin\source\repos\Project1\Klassensystem_Beta\Klassensystem_Beta\generateUUID.h(24,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Admin\source\repos\Project1\Klassensystem_Beta\Klassensystem_Beta\LoginForm.h(192,22): warning C4101: 'error': unreferenced local variable
+  LoginForm.cpp
+C:\Users\Admin\source\repos\Project1\Klassensystem_Beta\Klassensystem_Beta\LoginForm.h(192,22): warning C4101: 'error': unreferenced local variable
   Generating Code...
   AssemblyInfo.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
   Klassensystem_Beta.vcxproj -> C:\Users\Admin\source\repos\Project1\Klassensystem_Beta\x64\Debug\Klassensystem_Beta.exe

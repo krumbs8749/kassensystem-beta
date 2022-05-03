@@ -3,3 +3,4 @@ C:\Users\Admin\source\repos\Project1\Klassensystem_Beta\Klassensystem_Beta\x64\D
 C:\Users\Admin\source\repos\Project1\Klassensystem_Beta\Klassensystem_Beta\x64\Debug\Klassensystem_Beta.vcxproj.GenerateResource.cache
 C:\Users\Admin\source\repos\Project1\Klassensystem_Beta\Klassensystem_Beta\x64\Debug\Klassensystem_Beta.Dashboard.resources
 C:\Users\Admin\source\repos\Project1\Klassensystem_Beta\Klassensystem_Beta\x64\Debug\Klassensystem_Beta.LoginForm.resources
+C:\Users\Admin\source\repos\Project1\Klassensystem_Beta\Klassensystem_Beta\x64\Debug\Klassensystem_Beta.MenuPage.resources

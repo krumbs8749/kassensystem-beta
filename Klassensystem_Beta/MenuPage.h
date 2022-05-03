@@ -131,5 +131,5 @@ namespace Klassensystem_Beta {
 #pragma endregion
 	private: System::Void toolStripMenuItem1_Click(System::Object^ sender, System::EventArgs^ e) {
 	}
-	};
+};
 }
